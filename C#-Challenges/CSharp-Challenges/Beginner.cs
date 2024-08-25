@@ -9,10 +9,17 @@ public class Beginner
 
     public void Beginner1001ExtremelyBasic()
     {
-        int A = int.Parse(Console.ReadLine());
-        int B = int.Parse(Console.ReadLine());
-        int X = A + B;
-        Console.WriteLine("X = " + X);
+        int a = int.Parse(Console.ReadLine() ?? string.Empty);
+        int b = int.Parse(Console.ReadLine() ?? string.Empty);
+        int x = a + b;
+        Console.WriteLine("X = " + x);
+    }
+    
+    public void Beginner1002AreaOfACircle()
+    {
+        double n = double.Parse(Console.ReadLine() ?? string.Empty);
+        double area = 3.14159 * Math.Pow(n, 2);
+        Console.WriteLine("A=" + area.ToString("F4"));
     }
     
 }
