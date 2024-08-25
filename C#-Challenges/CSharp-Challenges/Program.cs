@@ -7,7 +7,6 @@ Beginner beginner = new Beginner();
 Execute(beginner.Beginner1000HelloWorld);
 Execute(beginner.Beginner1001ExtremelyBasic);
 
-beginner.Beginner1001ExtremelyBasic();
 #endregion
 
 
