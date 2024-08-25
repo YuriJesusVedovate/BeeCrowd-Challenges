@@ -22,4 +22,12 @@ public class Beginner
         Console.WriteLine("A=" + area.ToString("F4"));
     }
     
+    public void Beginner1003SimpleSum()
+    {
+        int a = int.Parse(Console.ReadLine() ?? string.Empty);
+        int b = int.Parse(Console.ReadLine() ?? string.Empty);
+        int sum = a + b;
+        Console.WriteLine("SOMA = " + sum);
+    }
+    
 }
