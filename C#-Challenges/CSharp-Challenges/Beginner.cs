@@ -55,4 +55,14 @@ public class Beginner
         Console.WriteLine("MEDIA = " + avg.ToString("F1"));
     }
     
+    public void Beginner1007Difference()
+    {
+        int a = int.Parse(Console.ReadLine() ?? string.Empty);
+        int b = int.Parse(Console.ReadLine() ?? string.Empty);
+        int c = int.Parse(Console.ReadLine() ?? string.Empty);
+        int d = int.Parse(Console.ReadLine() ?? string.Empty);
+        int diff = (a * b - c * d);
+        Console.WriteLine("DIFERENCA = " + diff);
+    }
+    
 }

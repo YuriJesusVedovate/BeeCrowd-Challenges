@@ -11,6 +11,7 @@ Execute(beginner.Beginner1003SimpleSum, true);
 Execute(beginner.Beginner1004SimpleProduct, true);
 Execute(beginner.Beginner1005Average1, true);
 Execute(beginner.Beginner1006Average2, true);
+Execute(beginner.Beginner1007Difference, true);
 
 #endregion
 
