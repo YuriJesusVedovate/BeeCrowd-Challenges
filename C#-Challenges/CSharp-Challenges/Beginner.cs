@@ -98,4 +98,11 @@ public class Beginner
         Console.WriteLine("VALOR A PAGAR: R$ " + total.ToString("F2"));
     }
     
+    public void Beginner1011Sphere()
+    {
+        double radius = double.Parse(Console.ReadLine() ?? string.Empty);
+        double volume = (4.0 / 3) * 3.14159 * Math.Pow(radius, 3);
+        Console.WriteLine("VOLUME = " + volume.ToString("F3"));
+    }
+    
 }
