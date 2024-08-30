@@ -105,4 +105,22 @@ public class Beginner
         Console.WriteLine("VOLUME = " + volume.ToString("F3"));
     }
     
+    public void Beginner1012Area()
+    {
+        string[] values = Console.ReadLine()?.Split(' ') ?? Array.Empty<string>();
+        double a = double.Parse(values[0]);
+        double b = double.Parse(values[1]);
+        double c = double.Parse(values[2]);
+        double triangle = (a * c) / 2;
+        double circle = 3.14159 * Math.Pow(c, 2);
+        double trapezium = ((a + b) * c) / 2;
+        double square = Math.Pow(b, 2);
+        double rectangle = a * b;
+        Console.WriteLine("TRIANGULO: " + triangle.ToString("F3"));
+        Console.WriteLine("CIRCULO: " + circle.ToString("F3"));
+        Console.WriteLine("TRAPEZIO: " + trapezium.ToString("F3"));
+        Console.WriteLine("QUADRADO: " + square.ToString("F3"));
+        Console.WriteLine("RETANGULO: " + rectangle.ToString("F3"));
+    }
+    
 }
