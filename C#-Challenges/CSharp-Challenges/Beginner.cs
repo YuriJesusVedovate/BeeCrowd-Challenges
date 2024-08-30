@@ -38,4 +38,12 @@ public class Beginner
         Console.WriteLine("PROD = " + prod);
     }
     
+    public void Beginner1005Average1()
+    {
+        double a = double.Parse(Console.ReadLine() ?? string.Empty);
+        double b = double.Parse(Console.ReadLine() ?? string.Empty);
+        double avg = ((a * 3.5) + (b * 7.5)) / 11;
+        Console.WriteLine("MEDIA = " + avg.ToString("F5"));
+    }
+    
 }
