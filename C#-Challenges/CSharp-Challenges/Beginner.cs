@@ -65,4 +65,14 @@ public class Beginner
         Console.WriteLine("DIFERENCA = " + diff);
     }
     
+    public void Beginner1008Salary()
+    {
+        int employeeNumber = int.Parse(Console.ReadLine() ?? string.Empty);
+        int workedHours = int.Parse(Console.ReadLine() ?? string.Empty);
+        double hourlyRate = double.Parse(Console.ReadLine() ?? string.Empty);
+        double salary = workedHours * hourlyRate;
+        Console.WriteLine("NUMBER = " + employeeNumber);
+        Console.WriteLine("SALARY = U$ " + salary.ToString("F2"));
+    }
+    
 }
