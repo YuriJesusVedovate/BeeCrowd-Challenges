@@ -46,4 +46,13 @@ public class Beginner
         Console.WriteLine("MEDIA = " + avg.ToString("F5"));
     }
     
+    public void Beginner1006Average2()
+    {
+        double a = double.Parse(Console.ReadLine() ?? string.Empty);
+        double b = double.Parse(Console.ReadLine() ?? string.Empty);
+        double c = double.Parse(Console.ReadLine() ?? string.Empty);
+        double avg = ((a * 2) + (b * 3) + (c * 5)) / 10;
+        Console.WriteLine("MEDIA = " + avg.ToString("F1"));
+    }
+    
 }
