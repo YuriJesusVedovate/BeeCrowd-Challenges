@@ -75,4 +75,13 @@ public class Beginner
         Console.WriteLine("SALARY = U$ " + salary.ToString("F2"));
     }
     
+    public void Beginner1009SalaryWithBonus()
+    {
+        string name = Console.ReadLine() ?? string.Empty;
+        double salary = double.Parse(Console.ReadLine() ?? string.Empty);
+        double sales = double.Parse(Console.ReadLine() ?? string.Empty);
+        double total = salary + (sales * 0.15);
+        Console.WriteLine("TOTAL = R$ " + total.ToString("F2"));
+    }
+    
 }
