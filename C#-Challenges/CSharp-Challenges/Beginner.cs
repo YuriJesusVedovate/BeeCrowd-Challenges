@@ -30,4 +30,12 @@ public class Beginner
         Console.WriteLine("SOMA = " + sum);
     }
     
+    public void Beginner1004SimpleProduct()
+    {
+        int a = int.Parse(Console.ReadLine() ?? string.Empty);
+        int b = int.Parse(Console.ReadLine() ?? string.Empty);
+        int prod = a * b;
+        Console.WriteLine("PROD = " + prod);
+    }
+    
 }

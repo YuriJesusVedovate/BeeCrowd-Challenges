@@ -8,6 +8,7 @@ Execute(beginner.Beginner1000HelloWorld, false);
 Execute(beginner.Beginner1001ExtremelyBasic, true);
 Execute(beginner.Beginner1002AreaOfACircle, true);
 Execute(beginner.Beginner1003SimpleSum, true);
+Execute(beginner.Beginner1004SimpleProduct, true);
 
 #endregion
 
