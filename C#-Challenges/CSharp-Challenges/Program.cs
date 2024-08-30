@@ -14,6 +14,7 @@ Execute(beginner.Beginner1006Average2, true);
 Execute(beginner.Beginner1007Difference, true);
 Execute(beginner.Beginner1008Salary, true);
 Execute(beginner.Beginner1009SalaryWithBonus, true);
+Execute(beginner.Beginner1010SimpleCalculate, true);
 
 #endregion
 

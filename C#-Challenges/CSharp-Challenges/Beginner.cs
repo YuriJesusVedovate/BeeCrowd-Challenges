@@ -84,4 +84,18 @@ public class Beginner
         Console.WriteLine("TOTAL = R$ " + total.ToString("F2"));
     }
     
+    public void Beginner1010SimpleCalculate()
+    {
+        string[] product1 = Console.ReadLine()?.Split(' ') ?? Array.Empty<string>();
+        string[] product2 = Console.ReadLine()?.Split(' ') ?? Array.Empty<string>();
+        int code1 = int.Parse(product1[0]);
+        int units1 = int.Parse(product1[1]);
+        double price1 = double.Parse(product1[2]);
+        int code2 = int.Parse(product2[0]);
+        int units2 = int.Parse(product2[1]);
+        double price2 = double.Parse(product2[2]);
+        double total = (units1 * price1) + (units2 * price2);
+        Console.WriteLine("VALOR A PAGAR: R$ " + total.ToString("F2"));
+    }
+    
 }
