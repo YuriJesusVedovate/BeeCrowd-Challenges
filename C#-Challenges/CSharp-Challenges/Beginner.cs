@@ -154,4 +154,11 @@ public class Beginner
         Console.WriteLine(distance.ToString("F4"));
     }
     
+    public void Beginner1016Distance()
+    {
+        int distance = int.Parse(Console.ReadLine() ?? string.Empty);
+        int time = distance * 2;
+        Console.WriteLine(time + " minutos");
+    }
+    
 }
