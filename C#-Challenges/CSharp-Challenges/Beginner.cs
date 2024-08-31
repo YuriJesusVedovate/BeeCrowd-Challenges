@@ -134,4 +134,12 @@ public class Beginner
         Console.WriteLine(abc + " eh o maior");
     }
     
+    public void Beginner1014Consumption()
+    {
+        int distance = int.Parse(Console.ReadLine() ?? string.Empty);
+        double fuel = double.Parse(Console.ReadLine() ?? string.Empty);
+        double consumption = distance / fuel;
+        Console.WriteLine(consumption.ToString("F3") + " km/l");
+    }
+    
 }

@@ -18,6 +18,7 @@ Execute(beginner.Beginner1010SimpleCalculate, true);
 Execute(beginner.Beginner1011Sphere, true);
 Execute(beginner.Beginner1012Area, true);
 Execute(beginner.Beginner1013TheGreatest, true);
+Execute(beginner.Beginner1014Consumption, true);
 
 
 #endregion
