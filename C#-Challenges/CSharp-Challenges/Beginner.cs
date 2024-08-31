@@ -123,4 +123,15 @@ public class Beginner
         Console.WriteLine("RETANGULO: " + rectangle.ToString("F3"));
     }
     
+    public void Beginner1013TheGreatest()
+    {
+        string[] values = Console.ReadLine()?.Split(' ') ?? Array.Empty<string>();
+        int a = int.Parse(values[0]);
+        int b = int.Parse(values[1]);
+        int c = int.Parse(values[2]);
+        int ab = (a + b + Math.Abs(a - b)) / 2;
+        int abc = (ab + c + Math.Abs(ab - c)) / 2;
+        Console.WriteLine(abc + " eh o maior");
+    }
+    
 }
