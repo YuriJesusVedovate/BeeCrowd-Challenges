@@ -142,4 +142,5 @@ public class Beginner
         Console.WriteLine(consumption.ToString("F3") + " km/l");
     }
     
+    public void Beginner1015DistanceBetweenTwoPoints()
 }

@@ -19,6 +19,7 @@ Execute(beginner.Beginner1011Sphere, true);
 Execute(beginner.Beginner1012Area, true);
 Execute(beginner.Beginner1013TheGreatest, true);
 Execute(beginner.Beginner1014Consumption, true);
+Execute(beginner.Beginner1015DistanceBetweenTwoPoints, true);
 
 
 #endregion
