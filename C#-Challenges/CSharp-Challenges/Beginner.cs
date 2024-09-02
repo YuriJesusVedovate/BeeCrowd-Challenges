@@ -170,4 +170,17 @@ public class Beginner
         Console.WriteLine(fuel.ToString("F3"));
     }
     
+    public void Beginner1018Banknotes()
+    {
+        int n = int.Parse(Console.ReadLine() ?? string.Empty);
+        int[] notes = {100, 50, 20, 10, 5, 2, 1};
+        Console.WriteLine(n);
+        foreach (int note in notes)
+        {
+            int count = n / note;
+            Console.WriteLine(count + " nota(s) de R$ " + note + ",00");
+            n %= note;
+        }
+    }
+    
 }
