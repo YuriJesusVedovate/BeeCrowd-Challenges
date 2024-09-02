@@ -183,4 +183,13 @@ public class Beginner
         }
     }
     
+    public void Beginner1019TimeConversion()
+    {
+        int n = int.Parse(Console.ReadLine() ?? string.Empty);
+        int hours = n / 3600;
+        int minutes = (n % 3600) / 60;
+        int seconds = n % 60;
+        Console.WriteLine(hours + ":" + minutes + ":" + seconds);
+    }
+    
 }
