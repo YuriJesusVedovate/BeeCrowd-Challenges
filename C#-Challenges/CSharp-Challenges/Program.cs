@@ -24,6 +24,7 @@ Execute(beginner.Beginner1016Distance, true);
 Execute(beginner.Beginner1017FuelSpent, true);
 Execute(beginner.Beginner1018Banknotes, true);
 Execute(beginner.Beginner1019TimeConversion, true);
+Execute(beginner.Beginner1020AgeInDays, true);
 #endregion
 
 

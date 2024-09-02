@@ -192,4 +192,15 @@ public class Beginner
         Console.WriteLine(hours + ":" + minutes + ":" + seconds);
     }
     
+    public void Beginner1020AgeInDays()
+    {
+        int days = int.Parse(Console.ReadLine() ?? string.Empty);
+        int years = days / 365;
+        int months = (days % 365) / 30;
+        int remainingDays = (days % 365) % 30;
+        Console.WriteLine(years + " ano(s)");
+        Console.WriteLine(months + " mes(es)");
+        Console.WriteLine(remainingDays + " dia(s)");
+    }
+    
 }
