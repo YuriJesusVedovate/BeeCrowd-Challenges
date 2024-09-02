@@ -161,4 +161,13 @@ public class Beginner
         Console.WriteLine(time + " minutos");
     }
     
+    public void Beginner1017FuelSpent()
+    {
+        int time = int.Parse(Console.ReadLine() ?? string.Empty);
+        int speed = int.Parse(Console.ReadLine() ?? string.Empty);
+        int distance = time * speed;
+        double fuel = distance / 12.0;
+        Console.WriteLine(fuel.ToString("F3"));
+    }
+    
 }
