@@ -209,22 +209,39 @@ public class Beginner
     {
         double valor = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
         
-        int centavos = (int)Math.Round(valor * 10   
+        int centavos = (int)Math.Round(valor * 10 );  
         int[] notas = { 10000, 5000, 2000, 1000, 500, 200 };
-        int[] moedas = { 100, 50, 25, 10, 5, 1  
+        int[] moedas = { 100, 50, 25, 10, 5, 1 };
         Console.WriteLine("NOTAS:");
         foreach (int nota in notas)
         {
             int quantidade = centavos / nota;
             Console.WriteLine($"{quantidade} nota(s) de R$ {(nota / 100.0).ToString("F2", CultureInfo.InvariantCulture)}");
             centavos %= nota;
-        
+        }
         Console.WriteLine("MOEDAS:");
         foreach (int moeda in moedas)
         {
             int quantidade = centavos / moeda;
             Console.WriteLine($"{quantidade} moeda(s) de R$ {(moeda / 100.0).ToString("F2", CultureInfo.InvariantCulture)}");
             centavos %= moeda;
+        }
+    }
+        
+    public void Beginner1035SelectionTest1()
+    {
+        string[] values = Console.ReadLine()?.Split(' ') ?? Array.Empty<string>();
+        int a = int.Parse(values[0]);
+        int b = int.Parse(values[1]);
+        int c = int.Parse(values[2]);
+        int d = int.Parse(values[3]);
+        if (b > c && d > a && c + d > a + b && c > 0 && d > 0 && a % 2 == 0)
+        {
+            Console.WriteLine("Valores aceitos");
+        }
+        else
+        {
+            Console.WriteLine("Valores nao aceitos");
         }
     }
     
