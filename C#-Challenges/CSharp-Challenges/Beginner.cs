@@ -1,4 +1,6 @@
-﻿namespace CSharp_Challenges;
+﻿using System.Globalization;
+
+namespace CSharp_Challenges;
 
 public class Beginner
 {
@@ -201,6 +203,29 @@ public class Beginner
         Console.WriteLine(years + " ano(s)");
         Console.WriteLine(months + " mes(es)");
         Console.WriteLine(remainingDays + " dia(s)");
+    }
+    
+    public void Beginner1021BanknotesAndCoins()
+    {
+        double valor = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+        
+        int centavos = (int)Math.Round(valor * 10   
+        int[] notas = { 10000, 5000, 2000, 1000, 500, 200 };
+        int[] moedas = { 100, 50, 25, 10, 5, 1  
+        Console.WriteLine("NOTAS:");
+        foreach (int nota in notas)
+        {
+            int quantidade = centavos / nota;
+            Console.WriteLine($"{quantidade} nota(s) de R$ {(nota / 100.0).ToString("F2", CultureInfo.InvariantCulture)}");
+            centavos %= nota;
+        
+        Console.WriteLine("MOEDAS:");
+        foreach (int moeda in moedas)
+        {
+            int quantidade = centavos / moeda;
+            Console.WriteLine($"{quantidade} moeda(s) de R$ {(moeda / 100.0).ToString("F2", CultureInfo.InvariantCulture)}");
+            centavos %= moeda;
+        }
     }
     
 }
