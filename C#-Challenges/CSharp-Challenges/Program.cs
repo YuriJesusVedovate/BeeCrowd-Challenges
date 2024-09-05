@@ -27,6 +27,7 @@ Execute(beginner.Beginner1019TimeConversion, true);
 Execute(beginner.Beginner1020AgeInDays, true);
 Execute(beginner.Beginner1021BanknotesAndCoins, true);
 Execute(beginner.Beginner1035SelectionTest1, true);
+Execute(beginner.Beginner1036BhaskarasFormula, true);
     
 #endregion
 

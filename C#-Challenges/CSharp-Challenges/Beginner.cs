@@ -245,4 +245,24 @@ public class Beginner
         }
     }
     
+    public void Beginner1036BhaskarasFormula()
+    {
+        string[] values = Console.ReadLine()?.Split(' ') ?? Array.Empty<string>();
+        double a = double.Parse(values[0]);
+        double b = double.Parse(values[1]);
+        double c = double.Parse(values[2]);
+        double delta = Math.Pow(b, 2) - 4 * a * c;
+        if (delta < 0 || a == 0)
+        {
+            Console.WriteLine("Impossivel calcular");
+        }
+        else
+        {
+            double r1 = (-b + Math.Sqrt(delta)) / (2 * a);
+            double r2 = (-b - Math.Sqrt(delta)) / (2 * a);
+            Console.WriteLine("R1 = " + r1.ToString("F5"));
+            Console.WriteLine("R2 = " + r2.ToString("F5"));
+        }
+    }
+    
 }
