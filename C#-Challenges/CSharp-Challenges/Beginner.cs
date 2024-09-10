@@ -290,4 +290,14 @@ public class Beginner
         }
     }
     
+    public void Beginner1038Snack()
+    {
+        string[] values = Console.ReadLine()?.Split(' ') ?? Array.Empty<string>();
+        int code = int.Parse(values[0]);
+        int quantity = int.Parse(values[1]);
+        double[] prices = {4.0, 4.5, 5.0, 2.0, 1.5};
+        double price = prices[code - 1] * quantity;
+        Console.WriteLine("Total: R$ " + price.ToString("F2"));
+    }
+    
 }
